@@ -225,10 +225,30 @@ $(function() {
 	}
 	function jump(page){
 		$('#container').css('top', -(page-1)*100 + '%');
-	  console.log(page)
 		if(page===5||page===4||page===3) {
 			animation['page4']();
 			return
+		}
+
+		switch (page) {
+			case 6:
+				page = 11;
+				break;
+			case 7:
+				page = 12;
+				break;
+			case 8:
+				page = 11;
+				break;
+			case 9:
+				page = 12;
+				break;
+			case 10:
+				page = 11;
+				break;
+			case 11:
+				page = 12;
+				break;
 		}
 		animation['page'+page]();
 	}
