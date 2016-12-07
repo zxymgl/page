@@ -20,6 +20,8 @@ Thumbs.db
 #####################################
 .idea
 .idea?
+.idea/
+.idea/workspace.xml
 .springBeans
 .springBeans?
 target/
