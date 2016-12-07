@@ -225,6 +225,11 @@ $(function() {
 	}
 	function jump(page){
 		$('#container').css('top', -(page-1)*100 + '%');
+	  console.log(page)
+		if(page===5||page===4||page===3) {
+			animation['page4']();
+			return
+		}
 		animation['page'+page]();
 	}
 });
