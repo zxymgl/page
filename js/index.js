@@ -176,6 +176,17 @@ $(function() {
 				$box.find('.fid').addClass('fadeInDown');
 			},100);
 		}
+		obj.page15 = function(){
+			var $box = $('.page15');
+			$box.find('.bil').removeClass('bounceInLeft');
+			$box.find('.fi').removeClass('fadeIn');
+			$box.find('.bid').removeClass('bounceInDown');
+			setId = setTimeout(function(){
+				$box.find('.bil').addClass('bounceInLeft');
+				$box.find('.fi').addClass('fadeIn');
+				$box.find('.bid').addClass('bounceInDown');
+			},100);
+		}
 	})(animation);
 	animation['page1']();
 	setTimeout(function(){
@@ -256,10 +267,10 @@ $(function() {
 				page = 12;
 				break;
 			case 10:
-				page = 11;
+				page = 13;
 				break;
 			case 11:
-				page = 12;
+				page = 15;
 				break;
 		}
 		animation['page'+page]();
