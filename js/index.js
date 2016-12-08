@@ -61,28 +61,35 @@ $(function() {
 		}
 		obj.page5 = function(){
 			var $box = $('.page5');
+			console.log($box)
 			$box.find('.bil').removeClass('bounceInLeft');
 			$box.find('.fi').removeClass('fadeIn');
+			$box.find('.bi').removeClass('bounceIn');
 			$box.find('.bid').removeClass('bounceInDown');
-			$box.find('.fir').removeClass('fadeInRight');
-			$box.find('.fil').removeClass('fadeInLeft');
+			$box.find('.fix').removeClass('flipInX');
+
 			setId = setTimeout(function(){
 				$box.find('.bil').addClass('bounceInLeft');
 				$box.find('.fi').addClass('fadeIn');
+				$box.find('.bi').addClass('bounceIn');
 				$box.find('.bid').addClass('bounceInDown');
-				$box.find('.fir').addClass('fadeInRight');
-				$box.find('.fil').addClass('fadeInLeft');
+				$box.find('.fix').addClass('flipInX');
 			},100);
 		}
 		obj.page6 = function(){
 			var $box = $('.page6');
 			$box.find('.bil').removeClass('bounceInLeft');
 			$box.find('.fi').removeClass('fadeIn');
-			$box.find('.bid').removeClass('bounceInDown');
+			$box.find('.bi').removeClass('bounceIn');
+			$box.find('.ridl').removeClass('rotateInDownLeft');
+			$box.find('.fix').removeClass('flipInX');
+
 			setId = setTimeout(function(){
 				$box.find('.bil').addClass('bounceInLeft');
 				$box.find('.fi').addClass('fadeIn');
-				$box.find('.bid').addClass('bounceInDown');
+				$box.find('.bi').addClass('bounceIn');
+				$box.find('.ridl').addClass('rotateInDownLeft');
+				$box.find('.fix').addClass('flipInX');
 			},100);
 		}
 		obj.page7 = function(){
@@ -225,7 +232,7 @@ $(function() {
 	}
 	function jump(page){
 		$('#container').css('top', -(page-1)*100 + '%');
-		
+
 		switch (page) {
 			case 3:
 				page = 4;
@@ -234,7 +241,7 @@ $(function() {
 				page = 5;
 				break;
 			case 5:
-				page = 4;
+				page = 6;
 				break;
 			case 6:
 				page = 11;

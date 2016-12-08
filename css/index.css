@@ -1502,11 +1502,11 @@ img {
     animation-delay: 1.7s;
     -webkit-animation-delay: 1.7s
 }
-.page6 {
+.page6  {
     background-color: #f8f5ee
 }
 
-.page6 .style::after, .page6 .section-title {
+.page6 .style::after {
     background-color: #f8f5ee
 }
 
@@ -1514,95 +1514,95 @@ img {
     background-color: #f8f5ee
 }
 
-.page6 ul {
-    margin-left: .62rem;
-    margin-right: .3rem
+.page6 .section-content {
+    width: 4.61rem;
+    margin: .6rem auto 0;
+    border: solid .11rem #59c9ee;
+    border-radius: .26rem;
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s
 }
 
-.page6 ul .title {
-    font-size: .32rem;
-    font-weight: bold;
-    color: #3f8ac5
-}
-
-.page6 ul .content {
+.page6 .section-content .top {
     position: relative;
-    z-index: 2;
-    line-height: .52rem;
-    margin-bottom: .24rem;
-    font-size: .28rem;
+    height: 1.6rem;
+    line-height: 1.39rem;
+    margin: -.38rem .25rem 0;
+    font-size: .5rem;
+    font-weight: bold;
     color: #fff;
-    background: #3fc56e;
-    text-indent: 0.23rem
-}
-
-.page6 ul li {
-    position: relative
-}
-
-.page6 ul li:first-child {
-    padding-left: 2.32rem
-}
-
-.page6 ul li:first-child .content {
-    width: 150%
-}
-
-.page6 ul li:first-child .txt::before {
-    bottom: 0.18rem
-}
-
-.page6 ul li:nth-child(1) {
-    animation-delay: 0.7s;
-    -webkit-animation-delay: 0.7s
-}
-
-.page6 ul li:nth-child(2) {
-    animation-delay: 0.75s;
-    -webkit-animation-delay: 0.75s
-}
-
-.page6 ul li:nth-child(3) {
-    animation-delay: 0.8s;
-    -webkit-animation-delay: 0.8s
-}
-
-.page6 ul li:nth-child(4) {
-    animation-delay: 0.85s;
-    -webkit-animation-delay: 0.85s
-}
-
-.page6 ul li:nth-child(5) {
+    text-indent: .17rem;
+    background: -webkit-linear-gradient(#6f88e5, #50e2f1);
+    background: linear-gradient(#6f88e5, #50e2f1);
+    border-radius: .15rem;
     animation-delay: 0.9s;
     -webkit-animation-delay: 0.9s
 }
 
-.page6 ul .txt {
-    position: relative;
-    width: 100%;
-    margin-top: 0.79rem
+.page6 .section-content .top em {
+    position: absolute;
+    top: -.17rem;
+    right: -.24rem;
+    width: 2.09rem;
+    height: 1.72rem;
+    background: url("../images/icon/icon_21.png") no-repeat;
+    background-size: 100%
 }
 
-.page6 ul .txt::before, .page6 ul .it::before {
+.page6 .section-content .top:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .47rem;
+    background: #fff;
+    border-bottom-left-radius: .15rem;
+    border-bottom-right-radius: 0.15rem
+}
+
+.page6 .section-content .title {
+    position: relative;
+    width: 2.09rem;
+    margin: .04rem auto 0;
+    line-height: .72rem;
+    font-size: .46rem;
+    color: #23cc27;
+    text-align: center;
+    border-bottom: solid .08rem #23cc27;
+    animation-delay: 1.6s;
+    -webkit-animation-delay: 1.6s
+}
+
+.page6 .section-content .title span {
+    position: relative;
+    z-index: 2;
+    display: block;
+    background-color: #f8f5ee
+}
+
+.page6 .section-content .title::before {
     content: '';
     position: absolute;
     z-index: 1;
-    width: .35rem;
+    left: 50%;
+    bottom: -.18rem;
+    width: .2rem;
     height: .2rem;
-    bottom: -.06rem;
-    left: .02rem;
-    background: #1d5d8f;
-    -webkit-transform: rotate(15deg) !important;
-    transform: rotate(15deg) !important
+    background-color: #23cc27;
+    -webkit-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important
 }
 
-.page6 ul em {
-    width: 2.32rem;
-    height: 2.2rem;
-    margin-left: -2.32rem;
-    background: url("../images/icon/icon_13.png") no-repeat;
-    background-size: 100%
+.page6 .section-content .content {
+    line-height: .6rem;
+    padding: .33rem;
+    font-size: .28rem;
+    color: #227793;
+    animation-delay: 1.7s;
+    -webkit-animation-delay: 1.7s
 }
+
 
 .page7 {
     background-color: #fff
