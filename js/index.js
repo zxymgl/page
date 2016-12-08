@@ -225,12 +225,17 @@ $(function() {
 	}
 	function jump(page){
 		$('#container').css('top', -(page-1)*100 + '%');
-		if(page===5||page===4||page===3) {
-			animation['page4']();
-			return
-		}
-
+		
 		switch (page) {
+			case 3:
+				page = 4;
+				break;
+			case 4:
+				page = 5;
+				break;
+			case 5:
+				page = 4;
+				break;
 			case 6:
 				page = 11;
 				break;
