@@ -2888,3 +2888,184 @@ img {
     animation-delay: 0.9s;
     -webkit-animation-delay: 0.9s
 }
+
+
+.page15 {
+    background-color: #F8F5EE
+}
+
+.page15 .style::after, .page15 .section-title, .page15 .section-title em::before, .page15 .section-title em::after {
+    background-color: #F8F5EE
+}
+
+.page15 .section-content {
+    z-index: 40;
+    top: 1.5rem;
+    left: 0.44rem;
+    width: 5.6rem
+}
+
+.page15 .section-content ul {
+    font-size: 0.26rem;
+    width: 5.3rem;
+    background: white;
+    border-radius: 0.3rem;
+    margin-left: 0.1rem;
+    padding-bottom: 0.1rem
+}
+
+.page15 .section-content ul li:nth-child(2) {
+    margin-top: 0.1rem
+}
+
+.page15 .section-content ul .title {
+    color: white;
+    line-height: 0.4rem;
+    height: 0.4rem;
+    padding-top: 0.1rem;
+    font-size: 0.28rem;
+    position: relative;
+    padding-left: 0.6rem;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 1px
+}
+
+.page15 .section-content ul .title em {
+    position: absolute;
+    top: -0.1rem;
+    left: 0.05rem;
+    width: 0.67rem;
+    height: 0.6rem;
+    background-image: url(../images/icon/icon_29.png);
+    background-size: 0.67rem;
+    background-repeat: no-repeat
+}
+
+.page15 .section-content ul .txt {
+    padding: 0 0.3rem;
+    line-height: 0.38rem;
+    color: white;
+    font-size: 0.24rem;
+    padding-left: 0.5rem;
+    position: relative
+}
+
+.page15 .section-content ul .txt:after {
+    content: '';
+    position: absolute;
+    top: 0.15rem;
+    left: 0.25rem;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 100%
+}
+
+.page15 .section-content ul .txt span {
+    font-weight: bold
+}
+
+.page15 .section-content ul:nth-child(1) {
+    margin-top: 0;
+    background: #F9BC17;
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s
+}
+
+.page15 .section-content ul:nth-child(1) .title {
+    border-bottom-color: #99DEFF
+}
+
+.page15 .section-content ul:nth-child(1) .title em {
+    background-position: 0 0
+}
+
+.page15 .section-content ul:nth-child(1) .txt:after {
+    background: #99DEFF
+}
+
+.page15 .section-content ul:nth-child(2) {
+    margin-top: 0.15rem;
+    background: #FF8F00;
+    animation-delay: 0.15s;
+    -webkit-animation-delay: 0.15s
+}
+
+.page15 .section-content ul:nth-child(2) .title {
+    border-bottom-color: #AEE6ED
+}
+
+.page15 .section-content ul:nth-child(2) .title em {
+    background-position: 0 -0.65rem
+}
+
+.page15 .section-content ul:nth-child(2) .txt:after {
+    background: #AEE6ED
+}
+
+.page15 .section-content ul:nth-child(3) {
+    margin-top: 0.15rem;
+    background: #13CEAC;
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s
+}
+
+.page15 .section-content ul:nth-child(3) .title {
+    border-bottom-color: #55ECD0
+}
+
+.page15 .section-content ul:nth-child(3) .title em {
+    background-position: 0 -1.35rem
+}
+
+.page15 .section-content ul:nth-child(3) .txt:after {
+    background: #5FF1D6
+}
+
+.page15 .section-content ul:nth-child(4) {
+    margin-top: 0.15rem;
+    background: #F9BC17;
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s
+}
+
+.page15 .section-content ul:nth-child(4) .title {
+    border-bottom-color: #FFD971
+}
+
+.page15 .section-content ul:nth-child(4) .title em {
+    background-position: 0 -2.02rem
+}
+
+.page15 .section-content ul:nth-child(4) .txt:after {
+    background: #FFD971
+}
+
+.page15 .section-content ul:nth-child(5) {
+    margin-top: 0.15rem;
+    background: #FF8F00;
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s
+}
+
+.page15 .section-content ul:nth-child(5) .title {
+    border-bottom-color: #FFDCAF
+}
+
+.page15 .section-content ul:nth-child(5) .title em {
+    background-position: 0 -2.66rem
+}
+
+.page15 .section-content ul:nth-child(5) .txt:after {
+    background: #FFDCAF
+}
+
+@media screen and (max-height: 480px) {
+    .page15 .section-content ul .txt {
+        line-height: 0.32rem
+    }
+
+    .page15 .section-content ul li:nth-child(2) {
+        margin-top: 0.05rem
+    }
+}
