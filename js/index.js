@@ -61,7 +61,6 @@ $(function() {
 		}
 		obj.page5 = function(){
 			var $box = $('.page5');
-			console.log($box)
 			$box.find('.bil').removeClass('bounceInLeft');
 			$box.find('.fi').removeClass('fadeIn');
 			$box.find('.bi').removeClass('bounceIn');
